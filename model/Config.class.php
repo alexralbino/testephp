@@ -4,7 +4,7 @@ Class Config{
 
 	//INFORMÃÇÕES BÁSICAS DO SITE
 	const SITE_URL = "http://localhost";
-	const SITE_PASTA = "teste";
+	const SITE_PASTA = "php";
 	const SITE_NOME = "Teste";
 
 	//INFORMAÇÕES DO BANCO DE DADOS

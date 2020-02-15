@@ -14,7 +14,7 @@ Class Rotas{
 	}
 
 	static function pag_Cadastro(){
-		return Config::SITE_URL . '/cadastro';
+		return self::get_SiteHOME() . '/cadastro';
 
 	}
 
@@ -24,6 +24,10 @@ Class Rotas{
 
 	static function pag_Logado(){
 		return self::get_SiteHOME(). '/logado';
+	}
+
+	static function pag_Login(){
+		return self::get_SiteHOME(). '/login';
 	}
 
 	static function Redirecionar($tempo, $pagina){

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2020-02-15 15:42:26
+/* Smarty version 3.1.31, created on 2020-02-15 17:18:26
   from "C:\xampp\htdocs\php\view\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5e480352ce90a1_56827801',
+  'unifunc' => 'content_5e4819d25e3039_23211398',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '81ee36436a85d1901a0b723eb2a5dc9e55922744' => 
     array (
       0 => 'C:\\xampp\\htdocs\\php\\view\\index.tpl',
-      1 => 1581777744,
+      1 => 1581783496,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e480352ce90a1_56827801 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e4819d25e3039_23211398 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <!DOCTYPE html>
@@ -60,9 +60,9 @@ function content_5e480352ce90a1_56827801 (Smarty_Internal_Template $_smarty_tpl)
  src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"><?php echo '</script'; ?>
 >
     <![endif]-->
-
     </head>
     <body>
+
                   <?php 
                   Rotas::get_Pagina();
                   ?>
